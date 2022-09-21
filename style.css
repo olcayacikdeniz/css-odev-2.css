@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    
+}
+
+.img {
+    margin-top: 70px;
+}
+
+.head{
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+    margin: auto 10% auto 10%;
+}
+
+section {
+    margin: auto 10% auto 10%;
+    
+}
+
+.left-bar {
+    float:left;
+    background-color: #7EE5DA;
+    height: 100px;
+    margin:0.10%;
+    
+}
