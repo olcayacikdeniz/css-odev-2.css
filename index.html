@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Burada title başlığımızın sol tarafına icon ekledik.-->
     <link rel="icon" href="images/icon.webp" type="image/x-icon" />
+    <!-- Bu kısımda css dosyamıza bağlanmak için link verdik. -->
     <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
 <body>
     <header>
-        <img class="img" src="images/logo.jpg" alt="Google Logo">
+        <!-- Bu kısımda sayfamızıın logosunu ekledik. -->
+        <img class="img" src="images/logo.jpg" alt="Google Logo"> 
         <nav class="head">
+            <!-- Bu kısımda ise arama çubuğumuzu oluşturduk. -->
             <div> Search the web using Google!</div>
-            <input type="text" style="width:30%;"> <br>
+            <!-- Arama yapabileceğimiz boş bir yapı oluşturduk ve bunun içine "placeholder" ifadesi ile şeffaf bir yazı yazdık.-->
+            <input type="text" style="width:30%;" placeholder="write what you want to search"> <br>
+            <!-- Arama çubuğumuz için gerekli butonları oluşturduk. -->
             <button>Google Search</button>
             <button>I'm feeling lucky</button>
         </nav>
     </header>
     <section>
         <div class="left-bar" style="width:35%;margin-left: 0;">
+            <!-- Bu kısımda bizden istenilen sayfalara ulaşmak için liste oluşturup link ekledik. -->
             <ul type="none">
                 <li>Special Searches</li>
                 <li><a href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford" target="_blank">Stanford Search</a></li>
@@ -27,7 +34,8 @@
             </ul>
         </div>
         <div class="left-bar" style="width:20%;" >
-               <div style="padding:10px">
+            <!-- Bu kısımda Google ile alakalı bazı sayfalara ulaşılabilmesi için link oluşturduk. -->
+                <div style="padding:10px">
                 <a href="https://web.archive.org/web/19990221212930if_/http://www.google.com/help.html" target="_blank">Help!</a><br>
                 <a href="https://web.archive.org/web/19990427105230if_/http://www.google.com/about.html" target="_blank">About Google!</a><br>
                 <a href="https://web.archive.org/web/19990221202430if_/http://www.google.com/company.html" target="_blank">Company Info</a><br>
@@ -35,10 +43,12 @@
                 </div>
         </div>
         <div class="left-bar" style="width:44.6%;margin-right: 0;">
+            <!-- Burada liste oluşturduk. -->
             <ul type="none">
                 <li>Get Google!</li>
                 <li>updates monthly:</li>
                 <li><input type="text" value="your e-mail"></li>
+                <!-- Burada abone olmak için bir buton ekledik ve arşiv için link ekledik. -->
                 <li><button>Subscribe</button> <a href="https://web.archive.org/web/19990116224431/http://www.findmail.com/list/google-friends" target="_blank">Archive</a></li>
             </ul>
         </div>
