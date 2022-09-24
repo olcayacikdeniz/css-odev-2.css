@@ -23,5 +23,14 @@ section {
     background-color: #7EE5DA;
     height: 100px;
     margin:0.10%;
+    display: table;
+    
+}
+
+.middle {
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
     
 }
